@@ -1,0 +1,22 @@
+<!--index.wxml-->
+<!--顶部轮播-->
+<!--<swiper indicator-dots="{{indicatorDots}}"  
+        autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">  
+    <block wx:for="{{imgUrls}}" class="image">  
+      <swiper-item>  
+          <navigator url="{{item.link}}" hover-class="navigator-hover">  
+          <image src="{{item.url}}" class="slide-image" model= "aspectFit"/>  
+          </navigator>   
+      </swiper-item>  
+    </block>  
+</swiper>-->
+<!--12星座-->  
+<!--<view class="section_top">
+  <view class="section_constellation" wx:for="{{constellation}}"> 
+      <view class="pic">
+        <image src="{{item.pic}}" style="width: 20px; height: 20px;"></image>
+        <view class="section_font">{{item.astroname}}</view>
+      </view>
+  </view>
+</view>-->
+<!--<button bindtap="test" >获取位置</button>-->

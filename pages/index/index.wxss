@@ -1,0 +1,27 @@
+/**index.wxss**/
+.section_constellation {
+  border-color: black;
+  font-size: 12px;
+  padding: 5px 10px 5px 10px;
+}
+
+.section_top {
+  padding: 0px 5px 5px 5px;
+
+  
+}
+
+.section_constellation {
+  display: inline-block;
+}
+
+.slide-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top:0px;
+}
+
+.section_font {
+  
+}

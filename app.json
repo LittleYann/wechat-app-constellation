@@ -1,0 +1,35 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/student/student",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "首页",
+    "navigationBarTextStyle":"black"
+  },
+  
+   "tabBar": {  
+   "color": "#a9b7b7",  
+   "selectedColor": "#00bb9c",  
+   "borderStyle":"white",  
+   "list": [{  
+     "selectedIconPath": "images/index_selected.png",  
+     "iconPath": "images/index.png",  
+     "pagePath": "pages/index/index",  
+     "text": "首页"  
+   }, {  
+     "selectedIconPath": "images/search_selected.png",  
+     "iconPath": "images/search.png",  
+     "pagePath": "pages/logs/logs",  
+     "text": "查找"  
+   }, {  
+     "selectedIconPath": "images/setting_selected.png",  
+     "iconPath": "images/setting.png",  
+     "pagePath": "pages/test/test",  
+     "text": "设置"  
+   }]  
+ }
+}
