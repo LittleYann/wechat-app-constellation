@@ -16,8 +16,10 @@ Page({
   onUnload:function(){
     // 页面关闭
   },
-   tapName: function(event) {
-    console.log(event)
+   skipLogin: function() {
+     wx.navigateTo({
+        url: 'login'
+     })
   },
    touchstart: function() {
      

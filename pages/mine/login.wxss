@@ -1,0 +1,19 @@
+page {
+    background: #f3f5f7;
+}
+.login-form {
+  margin-top: 10px;
+  background: white;
+}
+.btn-login {
+  width: 90%;
+  margin-top: 40px;
+  background: #09bb07;
+}
+.phone, .password {
+  height: 40px;
+  padding: 0px 20px;
+}
+text {
+  color: white;
+}

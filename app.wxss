@@ -1,1 +1,8 @@
 /**app.wxss**/
+.line-between {
+  height:1px;
+  width:100%;
+  background:#f3f5f7;
+  overflow:hidden;
+  margin-left: 10px; 
+}

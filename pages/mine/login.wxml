@@ -1,0 +1,10 @@
+<!--index.wxml-->
+  <view class="login-form">
+    <input name="input" placeholder="手机号" class="phone"/>
+    <view class="line-between"></view>
+    <input name="input" placeholder="密码" class="password"/>
+  </view>
+  
+  <view class="">
+    <button class="btn-login"><text>登录</text></button>
+  </view>
