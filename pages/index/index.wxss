@@ -1,27 +1,40 @@
-/**index.wxss**/
-.section_constellation {
-  border-color: black;
-  font-size: 12px;
-  padding: 5px 10px 5px 10px;
+page {
+    background: #f3f5f7;
 }
 
-.section_top {
-  padding: 0px 5px 5px 5px;
-
-  
+.login-img {
+  width: 120px;
+  height: 120px;
 }
 
-.section_constellation {
-  display: inline-block;
+text {
+  margin-top: 20px;
 }
 
-.slide-image {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top:0px;
+.section {
+  margin-top: 10px;
+  background: white;
 }
 
-.section_font {
-  
+button {
+  width: 90%;
+  margin-top: 40px;
+  background: #09bb07;
+}
+
+.line {
+  height:1px;
+  width:100%;
+  background:#f3f5f7;
+  overflow:hidden;
+  margin-left: 10px;
+}
+
+input {
+  height: 40px;
+  padding: 0px 20px;
+}
+
+text {
+  color: white;
 }

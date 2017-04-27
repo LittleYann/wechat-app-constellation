@@ -1,0 +1,10 @@
+<!--pages/mine/mine.wxml-->
+<view class="mine-top" bindtap="skipLogin">
+    <text class="text-login">登录/注册</text>
+    <text class="text-tip">登录后才可获取微信登录</text>
+</view>
+
+<!--<view class="mine-center">
+    <text class="text-about">关于我</text>
+</view>-->
+

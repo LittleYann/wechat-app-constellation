@@ -1,0 +1,50 @@
+/* pages/mine/mine.wxss */
+page {
+    background: #f3f5f7;
+}
+.mine-top {
+  height: 110px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 60rpx 0;
+  box-sizing: border-box;
+  background:#00bb9c;
+}
+.mine-top:active {
+  height: 110px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 60rpx 0;
+  box-sizing: border-box;
+  background:#00bb9c;
+}
+.text-login {
+    flex: 1;
+    color: white;
+    margin-left: 50rpx; 
+}
+.text-tip {
+    flex: 2;
+    color: white;
+    margin-top: 20rpx;
+    margin-left: 50rpx; 
+    font-size: 10pt;
+}
+.mine-center {
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+  background: white;
+  margin-top: 10px;
+  border:1px solid #ffeaea;
+  border-style:solid none;
+}
+.text-about {
+    margin: auto 30px;
+}
+
+

@@ -1,20 +1,20 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/student/student",
+    "pages/mine/mine",
     "pages/logs/logs"
   ],
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
+    "navigationBarBackgroundColor": "#00bb9c",
     "navigationBarTitleText": "首页",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle":"white"
   },
   
    "tabBar": {  
    "color": "#a9b7b7",  
    "selectedColor": "#00bb9c",  
-   "borderStyle":"white",  
+   "borderStyle":"#a9b7b7",  
    "list": [{  
      "selectedIconPath": "images/index_selected.png",  
      "iconPath": "images/index.png",  
@@ -28,8 +28,8 @@
    }, {  
      "selectedIconPath": "images/setting_selected.png",  
      "iconPath": "images/setting.png",  
-     "pagePath": "pages/test/test",  
-     "text": "设置"  
+     "pagePath": "pages/mine/mine",  
+     "text": "我的"  
    }]  
  }
 }
